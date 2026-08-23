@@ -20,16 +20,15 @@
 Arguably the most simple clustering method, given a new point poll the
 nearest K points, majority wins. To refine the best K, we iterate over
 the possible values and plot the output.
-![KMeans Elbow k-means++](figures/Elbow_Method_for_KMeans_kmeans_lineraph.png)
-![KMeans Silhouette k-means++](figures/KMeans_Silhouette_kmeans_lineraph.png)
-![KMeans Adjusted Random Index k-means++](figures/KMeans_ARI_kmeans_lineraph.png)
-![KMeans Normalised Mutual Information k-means++](figures/KMeans_NMI_kmeans_lineraph.png)
+![KMeans Elbow k-means++](figures/Elbow_Method_for_KMeans_kmeans_linegraph.png)
+![KMeans Silhouette k-means++](figures/KMeans_Silhouette_kmeans_linegraph.png)
+![KMeans Adjusted Random Index k-means++](figures/KMeans_ARI_kmeans_linegraph.png)
+![KMeans Normalised Mutual Information k-means++](./figures/KMeans_NMI_kmeans_linegraph.png)
 Best kmeans for `k-means++` is 9
-![Kmeans k-means++ Data shape](figures/Kmeans_Data_kmeans_scatterplot.png)
-![KMeans Elbow random](figures/Elbow_Method_for_KMeans_random_lineraph.png)
-![KMeans Silhouette random](figures/KMeans_Silhouette_random_lineraph.png)
-![KMeans Adjusted Random Index random](figures/KMeans_ARI_random_lineraph.png)
-![KMeans Normalised Mutual Information random](figures/KMeans_NMI_random_lineraph.png)
+![Kmeans k-means++ Data shape](figures/Kmeans_Data_random_scatterplot.png)
+![KMeans Elbow k-means++](figures/Elbow_Method_for_KMeans_random_linegraph.png)
+![KMeans Silhouette k-means++](figures/KMeans_Silhouette_random_linegraph.png)
+![KMeans Adjusted Random Index k-means++](figures/KMeans_ARI_random_linegraph.png)
 Best kmeans for `random` is 8
 ![Kmeans random Data shape](figures/Kmeans_Data_random_scatterplot.png)
 
