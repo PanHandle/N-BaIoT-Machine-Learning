@@ -93,7 +93,7 @@ model_mmlp_pred = bodge(model_mmlp.predict(x_test)) # type: ignore # This will f
 
 f.reprint(f.model_eval(
     f"Manual Multi-Layer Perception (U:{b_units}/LR:{b_learning_rate})",
-    y_test, model_mmlp_pred, False
+    y_test, model_mmlp_pred
 ))
 f.time_log(f"MMLP Final")
 f.time_log(f"MMLP pickle")
@@ -148,7 +148,7 @@ model_dnn_pred = bodge(model_dnn.predict(x_test)) # type: ignore # This will fai
 
 f.reprint(f.model_eval(
     f"Deep Neural Network (U:{b_units}/LR:{b_learning_rate}/Dr:{b_dropout}/L{b_layers})",
-    y_test, model_dnn_pred, False
+    y_test, model_dnn_pred
 ))
 
 f.time_log("DNN Final")
