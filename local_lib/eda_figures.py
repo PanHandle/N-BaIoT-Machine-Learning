@@ -13,7 +13,7 @@ plt.rcParams["savefig.dpi"] = 1200   # Higher DPI for Saving figures to disk
 plt.rcParams["axes.titleweight"] = "bold"
 plt.rcParams["axes.titlesize"] = 18
 plt.rcParams["grid.alpha"] = 0.5
-sns.set_theme(style="whitegrid", palette="crest")
+sns.set_theme(style="whitegrid", palette="colorblind")
 
 file_text_sane = lambda txt: re.sub(r'[^a-zA-Z0-9\.-_]+', "", txt.replace(" ", "_").replace("=", "_")) # Use Regex to remove "Special Characters"
 def heatmap_figure(name:str, dframe:pd.DataFrame ,title:str = "Feature correlation") -> str:
